@@ -13,6 +13,7 @@ var fib = function(N) {
         c = a + b;
         a = b;
         b = c;
+        console.log(b);
     }
     return b;
 };
